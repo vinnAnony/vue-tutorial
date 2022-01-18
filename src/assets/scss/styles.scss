@@ -7,6 +7,14 @@ $danger :red;
 * {
   box-sizing: border-box;
 }
+body {
+  padding: 4em;
+  font-family: sans-serif;
+  line-height: 1.15;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
 
 input[type=text], select, textarea {
   width: 100%;
@@ -69,7 +77,6 @@ label {
 }
 
 .wrapper{
-  margin: 10%;
   max-width: 800px;
   display: flex;
   justify-content: center;
